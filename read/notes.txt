@@ -1,0 +1,26 @@
+How to setup NodeJs application
+
+1. Make sure nodejs is installed (or else download from nodejs.org)
+2. Check using node -v or npm - v
+3. Create a folder for your backend project (ex: mkdir miniproject)
+4. cd miniproject
+5. npm init or npm init -y (Createss a package.json file)
+6. Install any package from npm website (ex: readline-sync package)
+7. npm i readline-sync / npm install readline-sync
+8. Create a main start fileName app.js (touch app.js)
+9. Add this code just to use any package 
+syntax is 
+
+-------------------------------------------------------
+const variableName = require("package-name")
+and now use the variableName across the file
+
+ex:
+const readline = require("readline-sync")
+
+let age = readline.QuestionInt("What is your age ? : ");
+console.log(`My age is ${age}`);
+--------------------------------------------------------
+
+10. Create a new file name .gitignore
+add node_modules in it 
