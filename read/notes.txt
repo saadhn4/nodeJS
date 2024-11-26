@@ -40,7 +40,7 @@ import readline from "readline-sync" //ES6 ; here readline is just variable name
 
 NPM packages (never make foldername same as package name): 
 
-readline-sync
-chalk
-.env
+1- readline-sync
+2- chalk
+3- .env
 
