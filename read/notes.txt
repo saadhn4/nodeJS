@@ -24,3 +24,12 @@ console.log(`My age is ${age}`);
 
 10. Create a new file name .gitignore
 add node_modules in it 
+
+ES5 Syntax for using NPM packages
+
+const readline = require ("readline-sync") // before 2015
+
+ES6 Syntax for using NPM packages //after 2015
+
+import readline from "readline-sync" //ES6 ; here readline is just variable name
+//chalk es6
