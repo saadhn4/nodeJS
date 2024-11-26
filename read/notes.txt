@@ -38,4 +38,9 @@ To use es6 syntax, add this line in package.json
 import readline from "readline-sync" //ES6 ; here readline is just variable name
 //chalk es6
 
+NPM packages (never make foldername same as package name): 
+
+readline-sync
+chalk
+.env
 
