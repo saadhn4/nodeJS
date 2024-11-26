@@ -31,5 +31,11 @@ const readline = require ("readline-sync") // before 2015
 
 ES6 Syntax for using NPM packages //after 2015
 
+To use es6 syntax, add this line in package.json
+
+"type": "module"
+
 import readline from "readline-sync" //ES6 ; here readline is just variable name
 //chalk es6
+
+
